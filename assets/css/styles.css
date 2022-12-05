@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    padding-bottom: 10px;
+    background-color: gray;
+    background-image: linear-gradient(grey, plum);
+}
+
+.admission{
+    width: 100%;
+    background-color: plum;
+    height: 150px;
+    margin-top: 30px;
+    background-image: linear-gradient(plum, white);
+}
+
+.admission img{
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.admission h2{
+    font-weight: bolder;
+    font-size: xx-large;
+    word-spacing: 50px;
+    position: absolute;
+    left: 300px;
+    top: 70px;
+    color: black;
+}
+
+.owerri{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    position: absolute;
+    color: wheat;
+    font-style: oblique;
+    
+}
+
+.to-right{
+    position: absolute;
+    left: 700px;
+    top: 315px;
+}
+
+.to-right img{
+    width: 450px;
+    height: 650px;
+}
+
+form{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.data{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.form-element{
+    width: 100%;
+    height: auto;
+}
+
+.form-element input{
+    width: 430px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: wheat;
+    border-color: wheat;
+}
+
+.form-element label{
+    font-size: large;
+    font-weight: bold;
+}
+
+.element p{
+    font-size: large;
+    font-weight: bold;
+}
+
+.course p{
+    font-size: large;
+    font-weight: bold;
+}
+
+.course{
+    position: absolute;
+    width: 70%;
+    word-spacing: 10px;
+}
+
+.drop-down{
+    display: none;
+    position: absolute;
+}
+
+.course:hover .drop-down{
+    display: block;
+}
+
+.disability{
+    width: 50%;
+    height: auto;
+    padding-left: 100px;
+    padding-top: 100px;
+    display: inline-block;
+    word-spacing: 20px;
+}
+
+.disability p{
+    font-size: large;
+    font-weight: bold;
+}
+
+.form{
+    padding-left: 120px;
+}
+
+.form input{
+    background-color: wheat;
+    width: 100px;
+    border-radius: 5px;
+    border-color: wheat;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+}
